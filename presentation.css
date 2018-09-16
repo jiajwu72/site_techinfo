@@ -1,0 +1,15 @@
+
+.carnet{
+    border: 1px red solid;
+    padding-bottom:70px;
+    padding-top:70px;
+}
+
+.page1{
+    background-image: url("image/titre4.gif");
+    border: #71ff6c 1px solid;
+    width:730px;
+    height: 450px;
+    margin-left: 12%;
+
+}

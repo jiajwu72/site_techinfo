@@ -1,0 +1,116 @@
+/*l'ensemble*/
+*{
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+
+
+a:link{
+    color:orange;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: #b4c2ff;
+}
+
+
+
+body{
+    /*border: solid #ff4c73 19px;*/
+    background-size:1400px,2000px;
+
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* l'en-tête */
+.top{
+    border:1px solid red;
+}
+
+.topMot{
+    /*border: 1px solid #88ffbb;*/
+    margin-left:100px;
+    margin-top: 30px;
+    width:150px;
+    height:50px;
+    color:red;
+    font-size: 40px;
+    font-style: italic;
+}
+
+/* fond de menu*/
+ul.index{
+    /*border: 1px solid #88ffbb;*/
+    width:920px;
+    height:160px;
+    background-image:url("image/titre3.gif");
+    background-size: 950px 250px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    padding-left: 78px;
+    padding-top: 80px;
+}
+
+/*liste de menu*/
+.index li{
+    float:left;
+    list-style-type:none;
+    border:2px solid #ff375a;
+    margin:25px 10px;
+    background-color:white;
+    color:red;
+    font-size: 28px;
+
+}
+
+.index li a:hover{
+    background-color: #ff4c73;
+}
+
+/*span{
+    color:red;
+    float: right;
+}*/
+
+.mot{
+    color: red;
+    float: right;
+}
+
+
+/*général pour tous*/
+
+.milieu{
+    background-image: url("image/form1.png");
+    /*border: solid green 1px;*/
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    /*align: center ;*/
+    width: 800px;
+    height: 600px;
+    text-align: center;
+    overflow: auto;
+}
+
+.barreGauche{
+    /*border:1px red solid;*/
+    width: 100px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.barreGauche a{
+    color: black;
+}
+
+.page{
+    float: right;
+}

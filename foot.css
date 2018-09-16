@@ -1,0 +1,25 @@
+html, body{
+height: 100%;
+}
+
+#wrapper{
+	height: 100%;
+	margin-bottom: -100px;
+}
+
+footer, #wrapper::after: {
+	height: 100px;
+}
+	#conteneur{
+	display: flex;
+	flex-wrap:no-wrap;
+	justify-content:space-around;
+	padding: 21px;
+	background-color: #bfbfbf;
+	border: 2px, white, solid;
+	border-radius: 7px;
+}
+.police{
+	font-size: x-large;
+}
+

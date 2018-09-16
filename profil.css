@@ -1,0 +1,30 @@
+
+ul{
+    border: 1px green solid;
+    margin-left: 0px;
+    margin-top:50px;
+    width: 380px;;
+    height: 320px;
+    padding-top: 0px;
+    background-image: url("image/crayon0.gif");
+}
+
+li{
+    list-style-type: none;
+    margin-top: 28px;
+    margin-left: 90px;
+
+}
+
+li a{
+    font-size: large;
+}
+
+.special{
+    margin-top: 20px;
+}
+
+h2{
+    border:solid 1px #71ff6c;
+    text-align: center;
+}
